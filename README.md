@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+The project is a web application that mimics Figma, a popular cloud-based tool for creating and collaborating on digital products. The project aims to demonstrate how to implement real-world features and challenges using modern web technologies and frameworks. To achieve this, the project uses the following technologies:
 
-## Getting Started
+Next.js: a React framework that enables server-side rendering and static site generation. This helps to build the user interface and handle the routing of the app.
+Tailwind CSS: a utility-first CSS framework that allows for rapid styling and customization. This helps to create the layout and appearance of the components, such as the toolbar, the sidebar, and the canvas.
+Shadcn-ui: a React UI library that provides a set of reusable and responsive components. This helps to enhance the user experience and interactivity of the app, such as adding buttons, modals, menus, and more.
+Liveblocks: a platform that enables real-time collaboration and synchronization across multiple devices. This helps to allow users to chat, comment, react, and draw on the canvas together, as if they were in the same room.
+Fabric.js: a JavaScript library that simplifies working with HTML5 canvas elements. This helps to enable users to create and manipulate shapes, images, text, and other objects on the canvas, as well as apply transformations, filters, and animations.
+The app also offers the following features:
 
-First, run the development server:
+Creating shapes and text: users can create various shapes, such as rectangles, circles, and triangle and add text to them. Users can also customize the shapes and text by changing their width, height, color, stroke, and size.
+Importing images: users can import images from their local files and add them to the canvas. Users can also resize, crop, and rotate the images as they wish.
+Undoing and redoing actions: users can undo and redo their actions on the canvas using the keyboard shortcuts Ctrl+Z and Ctrl+Y, or by clicking the undo and redo buttons on the toolbar.
+Having live comments with emojis: users can communicate with each other by leaving comments on the canvas. Users can also use emojis to express their emotions or reactions to the comments.
+Exporting the figma clone into a pdf: users can export their work as a pdf file by clicking the export button on the toolbar. The pdf file will contain all the elements on the canvas, as well as the comments and emojis.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Right click will pull up the short cut keys menu
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Short Cut Keys: 
+/ - real life text
+e - emojis NOTE: hold left click to show emojis 
+Ctrl+Z - undo
+Ctrl+Y - redo
