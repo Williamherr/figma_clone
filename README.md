@@ -1,10 +1,16 @@
 The project is a web application that mimics Figma, a popular cloud-based tool for creating and collaborating on digital products. The project aims to demonstrate how to implement real-world features and challenges using modern web technologies and frameworks. To achieve this, the project uses the following technologies:
 
 Next.js: a React framework that enables server-side rendering and static site generation. This helps to build the user interface and handle the routing of the app.<br/>
+
 Tailwind CSS: a utility-first CSS framework that allows for rapid styling and customization. This helps to create the layout and appearance of the components, such as the toolbar, the sidebar, and the canvas.<br/>
+
 Shadcn-ui: a React UI library that provides a set of reusable and responsive components. This helps to enhance the user experience and interactivity of the app, such as adding buttons, modals, menus, and more.<br/>
+
 Liveblocks: a platform that enables real-time collaboration and synchronization across multiple devices. This helps to allow users to chat, comment, react, and draw on the canvas together, as if they were in the same room.<br/>
+
 Fabric.js: a JavaScript library that simplifies working with HTML5 canvas elements. This helps to enable users to create and manipulate shapes, images, text, and other objects on the canvas, as well as apply transformations, filters, and animations.<br/>
+
+
 The app also offers the following features:
 
 Creating shapes and text: users can create various shapes, such as rectangles, circles, and triangle and add text to them. Users can also customize the shapes and text by changing their width, height, color, stroke, and size.
